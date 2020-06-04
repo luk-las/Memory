@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	background-color: #2E2E2E;
+	color: wheat;
+	font-family: 'Kelly Slab', cursive;
+    font-size: 28px;
+}
+
+
+h1
+{
+	font-size: 64px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+.card
+{
+	width: 128px;
+	height: 128px;
+	display: inline-block;
+	margin: 3px 6px;
+	background-image: url("img/questionMark.png");
+	border: 4px solid wheat;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 4px solid sienna;
+	filter: brightness(100%);
+}
+
+.score
+{
+	margin-top: 6px;
+	letter-spacing: 3px;
+}
+
+[type='number']
+{
+	margin: 20px 0px 10px 0px;
+	width: 50px;
+	border: 2px solid wheat;
+	border-radius: 4px;
+	font-family: 'Kelly Slab', cursive;
+	font-size: 15px;
+	color: wheat;
+	background-color: #5F5F5F;
+}
+
+[type='submit']
+{
+	margin: 10px;
+	height: 25px;
+	width: 100px;
+	border: 2px solid wheat;
+	border-radius: 4px;
+	font-family: 'Kelly Slab', cursive;
+	font-size: 15px;
+	color: wheat;
+	background-color: #5F5F5F;
+}
+
+[type='submit']:hover{
+	cursor: pointer;
+}
